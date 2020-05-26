@@ -17,3 +17,4 @@ function average(e) {
 function numberWithCommas(e) {
     return e.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")
 }
+//\uC724\uB3D9\uC6D0
