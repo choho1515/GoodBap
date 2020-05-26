@@ -21,6 +21,6 @@ function average(array) {
     }
     return result / arrLength;
 }
-	function numberWithCommas(x) { 
+function numberWithCommas(x) { 
    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-	}
+}
