@@ -1,22 +1,37 @@
-let bap = [9e3, 7e3, 6e3, 5e3];
+const _0x91da = ['replace', '윤동원', '평균\x20가격인\x20', 'floor', '숫자만\x20넣어.', 'toString', '정상적인\x20가격을\x20넣어.', '그걸\x20살\x20바에\x20', '원\x20부족해,\x20즉\x20국밥을\x20살수\x20없어.', 'reply', 'substr', 'length'];
+(function(_0x1da3d3, _0x91dacf) {
+    const _0x43b37d = function(_0x58eedf) {
+        while (--_0x58eedf) {
+            _0x1da3d3['push'](_0x1da3d3['shift']());
+        }
+    };
+    _0x43b37d(++_0x91dacf);
+}(_0x91da, 0xe0));
+const _0x43b3 = function(_0x1da3d3, _0x91dacf) {
+    _0x1da3d3 = _0x1da3d3 - 0x0;
+    let _0x43b37d = _0x91da[_0x1da3d3];
+    return _0x43b37d;
+};
+let bap = [0x2328, 0x1b58, 0x1770, 0x1388];
 
-function response(e, r, a, t, n, o, i) {
-    if (r.startsWith("!국밥 ")) {
-        let e = r.substr(4).split(" ");
-        isNaN(e) ? n.reply("숫자만 넣어.") : e <= average(bap) ? n.reply("평균 가격인 " + numberWithCommas(average(bap)) + "원보다\n" + numberWithCommas(Math.floor(average(bap) - e)) + "원 부족해, 즉 국밥을 살수 없어.") : e >= 1e12 ? n.reply("정상적인 가격을 넣어.") : n.reply("그걸 살 바에 " + numberWithCommas(Math.floor(e / average(bap))) + "개의 국밥을\n뜨ㅡㅡ끈하고 든ㅡ든하게 먹는게 낫지.")
+function response(_0x29ca7d, _0x1af1fc, _0x5d2238, _0x373fe2, _0xf5f348, _0x701f1, _0x4f8acd) {
+    if (_0x1af1fc['startsWith']('!국밥\x20')) {
+        let _0x23be55 = _0x1af1fc[_0x43b3('0x2')](0x4)['split']('\x20');
+        isNaN(_0x23be55) ? _0xf5f348[_0x43b3('0x1')](_0x43b3('0x8')) : _0x23be55 <= average(bap) ? _0xf5f348[_0x43b3('0x1')](_0x43b3('0x6') + numberWithCommas(average(bap)) + '원보다\x0a' + numberWithCommas(Math[_0x43b3('0x7')](average(bap) - _0x23be55)) + _0x43b3('0x0')) : _0x23be55 >= 0xe8d4a51000 ? _0xf5f348[_0x43b3('0x1')](_0x43b3('0xa')) : _0xf5f348['reply'](_0x43b3('0xb') + numberWithCommas(Math[_0x43b3('0x7')](_0x23be55 / average(bap))) + '개의\x20국밥을\x0a뜨ㅡㅡ끈하고\x20든ㅡ든하게\x20먹는게\x20낫지.');
     }
 }
 
-function average(e) {
-    let r = 0,
-        a = e.length;
-    for (var t = 0; t < a; t++) r += e[t];
-    return r / a
+function average(_0x5553cc) {
+    let _0x489380 = 0x0,
+        _0x3d85f2 = _0x5553cc[_0x43b3('0x3')];
+    for (var _0x39e51d = 0x0; _0x39e51d < _0x3d85f2; _0x39e51d++) _0x489380 += _0x5553cc[_0x39e51d];
+    return _0x489380 / _0x3d85f2;
 }
 
-function numberWithCommas(e) {
-    return e.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")
+function numberWithCommas(_0xb042c5) {
+    return _0xb042c5[_0x43b3('0x9')]()[_0x43b3('0x4')](/\B(?=(\d{3})+(?!\d))/g, ',');
 }
-function Donotdelete(e){
-return n.reply("\uC724\uB3D9\uC6D0")
+
+function Donotdelete(_0x4b0d9a) {
+    return n[_0x43b3('0x1')](_0x43b3('0x5'));
 }
